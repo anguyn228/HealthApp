@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PatientActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:padding="15px"
+            android:text="Select An Option"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/foodTrackerBtn"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/text"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:text="Food Tracker" />
+
+        <Button
+            android:id="@+id/findDoctorBtn"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/foodTrackerBtn"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:text="Find Doctor" />
+
+        <Button
+            android:id="@+id/messagesBtn"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/findDoctorBtn"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:text="My Messages" />
+        <Button
+            android:id="@+id/settingBtn"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/messagesBtn"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:text="Account Setting" />
+    </RelativeLayout>
+
+</RelativeLayout>

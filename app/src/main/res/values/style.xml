@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+<!--        <item name="actionBarStyle" parent="">@style/AppTheme.ActionBarStyle</item>-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.ActionBarStyle" parent="Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="logo">@mipmap/ic_launcher</item>
+        <item name="displayOptions">showHome|useLogo|showTitle</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>
